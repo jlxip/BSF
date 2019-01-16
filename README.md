@@ -10,4 +10,4 @@ _Boot Sector Fucker_
 - Qemu (if you want to try it out)
 
 ## How to use
-Modify `newboot.asm` if you want, and just run `makeISO.sh`. This will create `BSF.iso`, which is ready to use. You can also download it [https://github.com/jlxip/BSF/releases](here). A testing script is provided, `test.sh`, which creates an empty virtual HDD, and executes qemu twice. Once to modify the MBR, and another time to show the result. You can use it in VirtualBox or create a LiveCD/USB as well.
+Modify `newboot.asm` if you want, and just run `makeISO.sh`. This will create `BSF.iso`, which is ready to use. You can also download it [here](https://github.com/jlxip/BSF/releases). A testing script is provided, `test.sh`, which creates an empty virtual HDD, and executes qemu twice. Once to modify the MBR, and another time to show the result. You can use it in VirtualBox or create a LiveCD/USB as well.
